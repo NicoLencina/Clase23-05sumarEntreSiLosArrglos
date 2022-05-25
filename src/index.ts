@@ -1,9 +1,9 @@
-let dimensionArreglo: number = Number(
-  prompt("Ingrese la dimensión del arreglo:")
-);
+let dimensionArreglo: number = 0;
 let numeros: number[] = new Array(dimensionArreglo);
-let indice: number;
+let indice: number = 0;
 let resultado: number = 0;
+
+dimensionArreglo = Number(prompt("Ingrese la dimensión del arreglo:"));
 
 for (indice = 0; indice < dimensionArreglo; indice++) {
   numeros[indice] = Number(
